@@ -1,20 +1,8 @@
-# Folder structure
-# covid-xray-detection/
-# ├── data/                <- Original and processed dataset
-# ├── notebooks/           <- Jupyter notebooks for experiments
-# ├── models/              <- Trained models (.h5 or .pt)
-# ├── src/                 <- Source code (data loaders, model, training script)
-# ├── outputs/             <- Predictions, logs, visualizations
-# └── README.md            <- Project overview and instructions
-
-# Starting with the README.md content
-
-"""
 # COVID-Xray-Detection
 
 Deep learning model for detecting COVID-19 from chest X-ray images using Convolutional Neural Networks (CNN) in Keras.
 
-## 📁 Project Structure
+## Project Structure
 ```
 .
 ├── data/           # Dataset storage
@@ -25,29 +13,31 @@ Deep learning model for detecting COVID-19 from chest X-ray images using Convolu
 └── README.md       # Project info
 ```
 
-## 📦 Requirements
+## Requirements
 - Python >= 3.8
 - TensorFlow / Keras
-- NumPy, Pandas, Matplotlib, scikit-learn
+- NumPy
+- Pandas
+- Matplotlib
+- scikit-learn
 
-## 🚀 Getting Started
+## Getting Started
 1. Clone the repo:
 ```bash
 git clone https://github.com/yourusername/covid-xray-detection.git
 ```
 2. Download dataset from Kaggle: [COVID-19 Radiography Database](https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database)
-3. Place the extracted data inside the `data/` directory.
+3. Extract it and place inside the `data/` folder.
 
-## 🧠 Model
-- Convolutional Neural Network (CNN)
+## Model
+- CNN architecture
 - Trained on chest X-ray images
-- Evaluated using accuracy, precision, recall, and F1-score
+- Evaluation: accuracy, precision, recall, F1-score
 
-## 📊 Output
+## Output
 - Trained model (.h5)
-- Confusion Matrix
+- Confusion matrix
 - Grad-CAM visualizations
 
 ---
-Project under development 🚧
-"""
+🚧 Project under development
